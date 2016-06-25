@@ -134,7 +134,7 @@ apache:
             ssl_cipher: ''
             directories:
                 avd_hf0sef9p3tr4:
-                    path: /var/www/project
+                    path: /var/www/public
                     options:
                         - Indexes
                         - FollowSymlinks
