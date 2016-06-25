@@ -1,0 +1,8 @@
+puphpet/config-custom.yaml
+.vagrant/
+public/framework
+public/cms
+public/assets
+public/reports
+public/siteconfig/
+public/vendor
