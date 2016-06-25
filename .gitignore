@@ -1,9 +1,10 @@
-puphpet/config-custom.yaml
 .idea/
 .vagrant/
-public/framework
-public/cms
+puphpet/config-custom.yaml
 public/assets
+public/cms
+public/framework
 public/reports
 public/siteconfig/
 public/vendor
+public/mysite/_config.php
