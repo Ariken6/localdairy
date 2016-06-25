@@ -1,4 +1,5 @@
 puphpet/config-custom.yaml
+.idea/
 .vagrant/
 public/framework
 public/cms
