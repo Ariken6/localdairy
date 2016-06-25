@@ -9,7 +9,7 @@ $databaseConfig = array(
 	'server' => 'localhost',
 	'username' => 'root',
 	'password' => '',
-	'database' => 'Neltharion',
+	'database' => 'localdairy',
 	'path' => ''
 );
 
