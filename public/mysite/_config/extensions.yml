@@ -1,0 +1,6 @@
+LeftAndMain:
+  extensions:
+    - CustomLeftAndMain
+SiteConfig:
+  extensions:
+    - CustomSiteConfig

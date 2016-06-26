@@ -1,19 +1,12 @@
 <header class="header" role="banner">
-	<div class="inner">
-		<div class="unit size4of4 lastUnit">
-			<a href="$BaseHref" class="brand" rel="home">
-				<h1>$SiteConfig.Title</h1>
-				<% if $SiteConfig.Tagline %>
-				<p>$SiteConfig.Tagline</p>
-				<% end_if %>
-			</a>
-			<% if $SearchForm %>
-				<span class="search-dropdown-icon">L</span>
-				<div class="search-bar">
-					$SearchForm
-				</div>
+    <div class="inner">
+        <a href="$BaseHref" class="brand" rel="home">
+			<% if $SiteConfig.CompanyLogo %>
+				$SiteConfig.CompanyLogo.croppedImage(400,150)
+			<% else %>
+                <h1 class="header-title">$SiteConfig.Title</h1>
 			<% end_if %>
-			<% include Navigation %>
-		</div>
-	</div>
+        </a>
+    </div>
+	<% include Navigation %>
 </header>

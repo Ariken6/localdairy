@@ -30,8 +30,15 @@ class Page_Controller extends ContentController {
 
 	public function init() {
 		parent::init();
-		// You can include any CSS or JS required by your project here.
-		// See: http://doc.silverstripe.org/framework/en/reference/requirements
+		$themeDir = $this->ThemeDir();
+		//include css files
+//		Requirements::themedCSS('menupage');
+		//include javascript files
+		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.min.js');
+		Requirements::javascript(THIRDPARTY_DIR . '/jquery-ui/jquery-ui.min.js');
+		Requirements::javascript(THIRDPARTY_DIR . '/jquery-entwine/dist/jquery.entwine-dist.js');
+		Requirements::javascript($themeDir . '/javascript/jcarousel.js');
+		Requirements::javascript($themeDir . '/javascript/script.js');
+		Requirements::javascript($themeDir . '/javascript/main.js');
 	}
-
 }
