@@ -4,3 +4,9 @@ LeftAndMain:
 SiteConfig:
   extensions:
     - CustomSiteConfig
+Member:
+  extensions:
+    - MemberExtension
+Group:
+  extensions:
+    - GroupExtension
